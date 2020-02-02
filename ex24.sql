@@ -2,7 +2,7 @@ SELECT DISTINCT Product.maker
 FROM Product
 INNER JOIN PC ON Product.model=PC.model
 AND Product.type='PC'
-AND PC.speed>=75
+AND PC.speed>=750
 
 INTERSECT
 
